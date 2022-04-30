@@ -65,3 +65,30 @@ anında görebiliz.Kullanabilmek için ise xmlns:tools="http://schemas.android.c
     android:layout_width="wrap_content"    
     android:layout_height="wrap_content"     
     tools:src="@drawable/sampleImg" /
+    
+ ### <a name="2"></a> Araştırma Projesi 3
+ 
+- Font family dosyası nasıl oluşturulup kullanıyoruz?
+- Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
+
+#### <a name="1"></a> Cevaplar
+
+res altında directory ile font oluşturuyoruz. Daha sonra belirlediğimiz fontları içine atıyoruz ve font içinde bir xml dosyası oluşturuyoruz. Bu xml dosyası içinde
+de fontumuzun özelliklerini belirliyoruz(fontweight:400,fontstyle:"italic" gibi). Bu kullanımı tercih etmemizin sebebi ise kendi fontumuzu oluşturup projemizde rahatlıkla kullanabilmek. 
+
+![font-family](https://user-images.githubusercontent.com/96207103/166081287-2ba90b19-9509-4c63-9edf-3c87cb9ac035.png)
+
+Activity_main içerisinde ise şu şekilde kullanırız:
+
+![Adsız](https://user-images.githubusercontent.com/96207103/166081861-d8a36412-dd9f-4943-9a03-7460e5c4a7db.png)
+
+ ### <a name="2"></a> Araştırma Projesi 4
+ 
+ - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
+
+#### <a name="1"></a> Cevaplar
+
+- objectanimator belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır(Arka plan rengi veya alfa değeri gibi bileşenin özelliklerini belirli bir süre boyunca değiştirir).
+
+- animator belirli bir süre boyunca bir animasyon gerçekleştirir ve bir value animatörünü temsil eder
+
